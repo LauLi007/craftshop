@@ -1,6 +1,6 @@
 uuid: 8d380aaf-0c14-437a-9ef2-7663413c6f56
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: mytheme_messages
 theme: mytheme
 region: header
-weight: 0
+weight: -2
 provider: null
 plugin: system_messages_block
 settings:
