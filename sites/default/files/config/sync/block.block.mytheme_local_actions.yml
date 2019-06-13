@@ -1,6 +1,6 @@
 uuid: ba661529-c35c-48cd-afca-b8c558d7db57
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - mytheme
@@ -9,7 +9,7 @@ _core:
 id: mytheme_local_actions
 theme: mytheme
 region: content
-weight: -20
+weight: -4
 provider: null
 plugin: local_actions_block
 settings:

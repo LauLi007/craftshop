@@ -1,0 +1,8 @@
+uuid: 4fbe8b55-99e1-47e0-89f6-3d26787a872d
+langcode: en
+status: true
+dependencies: {  }
+name: Kategoriat
+vid: kategoriat
+description: Käsityökategoriat
+weight: 0

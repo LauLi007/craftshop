@@ -1,0 +1,22 @@
+uuid: 1cdfc37a-e879-4536-b8c7-8effc0bb9ed6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.makers_page
+  module:
+    - text
+id: node.makers_page.body
+field_name: body
+entity_type: node
+bundle: makers_page
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
