@@ -1,6 +1,6 @@
 uuid: de1be9fd-0bd2-46ca-8953-097b6dec9d09
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - mytheme
@@ -9,7 +9,7 @@ _core:
 id: mytheme_local_tasks
 theme: mytheme
 region: content
-weight: -40
+weight: -5
 provider: null
 plugin: local_tasks_block
 settings:

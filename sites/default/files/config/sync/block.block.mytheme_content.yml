@@ -1,6 +1,6 @@
 uuid: 9fdd5131-0769-4cfc-abd3-adeac1f1a0d0
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: mytheme_content
 theme: mytheme
 region: content
-weight: 0
+weight: -3
 provider: null
 plugin: system_main_block
 settings:
