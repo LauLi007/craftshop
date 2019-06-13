@@ -1,0 +1,32 @@
+uuid: a32c9e31-b52a-4c79-a632-49f3669b8077
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.makers_page_taxonomies
+  module:
+    - node
+    - views
+  theme:
+    - mytheme
+id: views_block__makers_page_taxonomies_block_1
+theme: mytheme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:makers_page_taxonomies-block_1'
+settings:
+  id: 'views_block:makers_page_taxonomies-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      makers_page: makers_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
