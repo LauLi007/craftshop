@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+#block-mytheme-branding{
+overflow: hidden;
+padding: 20px 10px;
+}
+
+#block-mytheme-branding > div.site-name a{
+font-family: 'Playfair Display', serif;
+font-size: 3em;
+text-decoration: none;
+color: #1C8079;
+}
+
+#block-mytheme-main-menu li{
+float: left;
+border-top: 1px solid #1C8079;
+}
+
+#block-mytheme-main-menu a{
+font-family: 'Playfair Display', serif;
+display: block;
+padding: 8px;
+text-decoration: none;
+color: #1C8079;
+}
+
+img{
+max-width: 90%; 
+height: auto; 
+margin-left: 5%; 
+margin-right: auto;
+margin-top: 80px;
+}
