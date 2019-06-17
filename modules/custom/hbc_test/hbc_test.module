@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Contains hbc_test.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+function hbc_test_form_alter(&$form, $form_state, $form_id) {
+  if($form_id == 'user_form'){
+    ksm($form);
+    $form['account']['mail']['#description'] = 'A new description';
+  }
+}
