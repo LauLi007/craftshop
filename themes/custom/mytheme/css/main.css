@@ -49,12 +49,20 @@ margin-bottom: 100px;
 }
 
 
-body > div.dialog-off-canvas-main-canvas > div > main > div > div > div:nth-child(4) > div > div.view-content > div > article > h2 > a {font-family: 'Playfair Display', serif;
-text-decoration: none;
-color:  #1C8079;
+body > div.dialog-off-canvas-main-canvas > div > main > div > div > div:nth-child(4) > div > div.view-content > div > article{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 100px;
 }
 
-body > div.dialog-off-canvas-main-canvas > div > main > div > div > div:nth-child(4) > div > div.view-content > div > article > div.nod${
+body > div.dialog-off-canvas-main-canvas > div > main > div > div > div:nth-child(4) > div > div.view-content > div > article > h2 > a {
+font-family: 'Playfair Display', serif;
+text-decoration: none; 
+color:  #1C8079; 
+}
+
+body > div.dialog-off-canvas-main-canvas > div > main > div > div > div:nth-child(4) > div > div.view-content > div > article > div.node__content > div > p {
 
 }
 
@@ -65,9 +73,8 @@ padding: 20px;
 }
 
 #block-views-block-photo-gallery-block-1 > div:nth-child(2){
-margin-top: 70px; 
+margin-top: 70px;
 width: 80%;
-margin-left: auto;
+margin-left: auto; 
 margin-right: auto;
 }
-
