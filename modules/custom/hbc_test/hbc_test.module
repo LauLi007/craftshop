@@ -11,5 +11,7 @@ function hbc_test_form_alter(&$form, $form_state, $form_id) {
   if($form_id == 'user_form'){
     ksm($form);
     $form['account']['mail']['#description'] = 'A new description';
+    $form['#attached']['library'][] = 'hbc_test/spectrum';
+    $form['#attached']['library'][] = 'hbc_test/hbc_colorpicker';
   }
 }

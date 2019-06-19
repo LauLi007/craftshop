@@ -1,0 +1,20 @@
+hbc_colorpicker:
+  version: 1.x
+  js:
+    js/hbc_colorpicker.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/drupalSettings
+
+spectrum:
+  version: 1.8
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.js: { type: external, minified: true }
+  css:
+    theme:
+      https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css: { type: external, minified: true }
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/drupalSettings

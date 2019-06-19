@@ -12,6 +12,37 @@ text-decoration: none;
 color: #1C8079;
 }
 
+/* paddingia pääsisältöön */
+.layout-content {
+padding: 40px;
+}
+
+/* tekijän otsikon keskitys */
+.block-region-top {
+text-align: left;
+padding-left: 60px;
+}
+
+.layout__region--first .block-region-first {
+padding-left: 60px;
+width: 70%;
+}
+
+.layout--twocol a {
+color: green;
+text-decoration: none;
+}
+
+.layout--twocol a:hover {
+text-decoration: underline;
+}
+
+h2 {
+font-family: 'Playfair Display', serif;
+font-size: 2em;
+color: #1C8079;
+}
+
 #block-mytheme-main-menu li{
 display: inline-block;
 border-top: 1px solid #1C8079;
@@ -62,14 +93,15 @@ text-decoration: none;
 color:  #1C8079; 
 }
 
-body > div.dialog-off-canvas-main-canvas > div > main > div > div > div:nth-child(4) > div > div.view-content > div > article > div.node__content > div > p {
-
+body > div.dialog-off-canvas-main-canvas > div > footer{
+border-top: 1px solid #1C8079;
+padding: 20px;
+text-align: center;
 }
 
-
-body > div.dialog-off-canvas-main-canvas > div > footer{
-background-color: #1C8079;
-padding: 20px;
+body > div.dialog-off-canvas-main-canvas > div > footer a {
+color: green;
+text-decoration: none;
 }
 
 #block-views-block-photo-gallery-block-1 > div:nth-child(2){
@@ -78,3 +110,4 @@ width: 80%;
 margin-left: auto; 
 margin-right: auto;
 }
+

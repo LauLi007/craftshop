@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+body {
+  padding: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+#block-testtheme-branding > div.site-name a {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  text-decoration: none;
+  color: #1C8079;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  text-decoration: none;
+  color: #1C8079;
+}
+
+a {
+  color: green;
+}
